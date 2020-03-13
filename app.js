@@ -1,17 +1,9 @@
 const database = require('./database')
 const user = require('./user')
 
-function checkUser(item) {
+result = database.map((item) => {
   if (user.login == item.login && user.password == item.password)
-   return true
-}
+  return true
+})
 
-function check() {
-
-  result = database.map(checkUser)
-
-  console.log(result.includes(true))
-
-}
-
-check()
+console.log(result.includes(true))

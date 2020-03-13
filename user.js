@@ -1,4 +1,4 @@
-user = {
+const user = {
   login: 'Korona',
   password: 'pass'
 }

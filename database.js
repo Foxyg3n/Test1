@@ -5,8 +5,4 @@ const database = [
   {login: 'Dawid', password: 'pass'}
 ]
 
-for(var i; i < database.length; i++) {
-  console.log(i);
-}
-
 module.exports = database
